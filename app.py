@@ -5,7 +5,7 @@ import streamlit.components.v1 as components
 # ---------------- API ----------------
 
 client = Groq(
-    api_key="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"
+    api_key=os.getenv("GROQ_API_KEY")
 )
 
 # ---------------- PAGE ----------------
